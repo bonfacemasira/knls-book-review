@@ -1,7 +1,8 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Login from './pages/Login';
-import SignUp from './pages/SignUP';
+import Login from './components/Login';
+// import SignUp from './components/SignUP';
+// import Landingpage from './pages/Landingpage';
 
 
 function App() {
@@ -10,8 +11,9 @@ function App() {
       <header className="App-header">
         Kenya National Library Service Book Review
       </header>
-      {/* <Login /> */}
-      <SignUp />
+      {/* <Landingpage /> */}
+      <Login />
+      {/* <SignUp /> */}
     </div>
   );
 }
