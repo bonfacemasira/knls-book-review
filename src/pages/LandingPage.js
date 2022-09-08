@@ -5,17 +5,21 @@ import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-do
 
 function Landingpage() {
     return (
-        <div>
+        <div className="Landingpage">
             <Router>
                 <div>
                     <nav>
                         <div>
                             <ul>
                                 <li>
-                                    <NavLink to={'/login'}>Login</NavLink>
+                                    <NavLink to={'/login'}>
+                                        <button className="landingButton">Login</button>
+                                    </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to={'/sign-up'}>Sign up</NavLink>
+                                    <NavLink to={'/sign-up'}>
+                                        <button className="landingButton">Sign up</button>
+                                    </NavLink>
                                 </li>
                             </ul>
                         </div>

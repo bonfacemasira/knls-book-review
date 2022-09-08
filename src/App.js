@@ -10,6 +10,7 @@ function App() {
         Kenya National Library Service Book Review
       </header>
       <LandingPage />
+      <footer></footer>
     </div>
   );
 }

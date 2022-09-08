@@ -30,7 +30,7 @@ function Login() {
                 </div>
             </div>
             <div className="d-grid">
-                <button type="submit" className="btn btn-primary">Submit</button>
+                <button type="submit" className="btn btn-primary">Login</button>
             </div>
             <p className="forgot-password text-right">Forgot <a href="#">password?</a></p>
         </form>
