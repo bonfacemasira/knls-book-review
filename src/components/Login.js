@@ -80,9 +80,6 @@ function Login() {
           Login
         </button>
       </div>
-      <p className="forgot-password text-right">
-        Forgot <a href="#">password?</a>
-      </p>
     </form>
   );
 }
