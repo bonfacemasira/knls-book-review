@@ -43,4 +43,6 @@ nav ul {
   border: 1px solid black;
   width: 80%;
   margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
