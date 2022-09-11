@@ -14,7 +14,7 @@ function Home() {
     console.log(books)
     
     return(
-        <div className="parent-container">
+        <div className="parent">
             {books.map((book) =>(
                 <Books
                     key={book.id}
