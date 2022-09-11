@@ -1,7 +1,5 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import LandingPage from './pages/LandingPage';
-// import Home from './pages/Home';
 import { Outlet} from 'react-router-dom' 
 import Home from './pages/Home';
 
