@@ -38,3 +38,9 @@ nav ul {
   color: black; 
   border: 2px solid #008CBA;
 }
+
+.parent-container{
+  border: 1px solid black;
+  width: 80%;
+  margin: auto;
+}
