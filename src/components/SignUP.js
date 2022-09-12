@@ -17,7 +17,7 @@ function SignUp() {
   function handleSubmit(event) {
     event.preventDefault();
 
-    axios.post("http://localhost:9292/users/register", formData)
+    axios.post("https://knls-book-review-backend.herokuapp.com/users/register", formData)
       .then((response) => {
         if (Object.values(response.data).length > 1) {
           alert("User registered successfully");

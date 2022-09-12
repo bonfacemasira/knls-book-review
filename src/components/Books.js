@@ -25,7 +25,7 @@ function Books({ authors, averageRating, description, id, image, language, pageC
                     <Modal.Title>{title}</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <p>{description}</p>
+                    <p rows={3}>{description}</p>
                     <p>Publisher: {publisher} | Date: {publishedDate}</p>
                     <p>Rating: {averageRating} ({ratingsCount})</p>
 

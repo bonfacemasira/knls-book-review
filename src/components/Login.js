@@ -26,7 +26,7 @@ function Login() {
     event.preventDefault();
     // console.log(formData)
     axios
-      .post("http://localhost:9292/users/login", formData)
+      .post("https://knls-book-review-backend.herokuapp.com/users/login", formData)
       .then((response) => {
         if (Object.values(response.data).length > 1) {
           alert("Login successful");
