@@ -153,10 +153,10 @@ run front end
 
 ---
 
-#### live link
+#### Live link
 
 - run the following live link in your browser
-  `https://knls-books-review.netlify.app/`
+  `https://knls-books-review.netlify.app/` [knls-books-review](https://knls-books-review.netlify.app/)
 
 #### login Auths..
 
@@ -191,4 +191,4 @@ Copyright(c)[2022][bonface masira]
 
 ## Contact Information
 
-- Email : bonfacemasira@gmail.om
+- Email : bonfacemasira@gmail.com
