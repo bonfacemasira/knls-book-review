@@ -12,7 +12,9 @@ function App() {
       </header>
       <Outlet />
       <Home />
-      <footer></footer>
+      <footer>
+        <div>&copy; {new Date().getFullYear()} Copyright: {'Bonface Masira'} </div>
+      </footer>
     </div>
   );
 }

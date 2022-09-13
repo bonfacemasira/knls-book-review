@@ -1,70 +1,194 @@
-# Getting Started with Create React App
+# KNLS-BOOK-REVIEW
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+### Author : BONFACE MASIRA
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Project Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The knls-book-review application made with React(JavaScript) and Ruby. It is used to view a select list of books and their reviews. The user is also able to write a review and delete it at will.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### ![Demo](./src/assets/demo-clock-me.gif)
 
-### `npm run build`
+## SCREENSHOTS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Sign Up
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### ![image](./src/assets/login.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Login
 
-### `npm run eject`
+#### ![image](./src/assets/login.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Books Panel
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### ![image](./src/assets/dashboard.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Table of content
 
-## Learn More
+- [Technologies](#description)
+- [Description](#description)
+- [Features](#features)
+- [Setup-process](#setup_process)
+- [Project-usage](#project-usage)
+- [Licence](#licence)
+- [Copyright](#copyright)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technologies
 
-### Code Splitting
+languages used are:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Front-end
 
-### Analyzing the Bundle Size
+1. React(JavaScript)
+2. Sass
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+- Back-end
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Ruby(Active Record)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Features
 
-### Deployment
+- As a user you can be able to:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. Create an account.
+2. Login to the application.
+3. View all the available books in the database.
+4. View the reviews of the books in the database.
+5. Add a review to the books in the database.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### description
+
+This web application helps to solve the problem of tracing employees working time. This can be very essential espesialy jobs that pays thier employees on hourly basis.
+the application is also beneficial to a any company since it enables them track thier working times of thier employees and know how to optimize make thiem efficient.
+the application solve this such as recoding each day's clock-in and clock-out timestamp and record it in the database as string array. the application then uses the timestamps to calculate how many hours the employee has been working and compute the employees salary.
+
+---
+
+### challenges
+
+- Manipulating timestamps.
+- Implementing theme change using sass.
+
+---
+
+## How to set up and run the project
+
+### Requirements
+
+- [npm](https://www.npmjs.com/)
+- Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
+
+---
+
+### Dependencies
+
+- npm
+- ruby
+
+---
+
+### setup
+
+#### Back end
+
+clone the repo using the command
+
+- `git clone https://github.com/bonfacemasira/phase-3-sinatra-react-project`
+
+change directory using command
+
+- `cd phase-3-sinatra-react-project`
+
+open project in vscode texteditor
+
+- `code .`
+
+install dependancies gems
+
+- `bundle exec install`
+
+run server
+
+- `bundle exec rake server`
+
+---
+
+#### Front end
+
+clone the repo using the command
+
+- `git clone https://github.com/bonfacemasira/knls-book-review`
+
+change directory using command
+
+- `cd knls-book-review`
+
+open project in vscode texteditor
+
+- `code .`
+
+install dependancies packages
+
+- `run npm install`
+
+run front end
+
+- `npm start`
+
+---
+
+#### live link
+
+- run the following live link in your browser
+  `https://knls-books-review.netlify.app/`
+
+#### login Auths..
+
+- user:
+
+username: Jon
+password: 12345
+
+## How to use the project
+
+---
+
+### Contributing to project
+
+- Fork the repo
+
+* Create a new branch in your terminal (git checkout -b improve-feature)
+* Install the prerequisites
+* Make appropriate changes in file(s)
+* Run the server to see the changes
+* Add the changes and commit them (git commit -am "Improve App")
+* Push to the branch (git push origin improve-app)
+* Create a Pull request
+
+---
+
+## Copyright
+
+Copyright(c)[2022][bonface masira]
+
+---
+
+## Contact Information
+
+- Email : bonfacemasira@gmail.om
