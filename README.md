@@ -14,21 +14,21 @@ The knls-book-review application made with React(JavaScript) and Ruby. It is use
 
 ## Demo
 
-#### ![Demo](./src/assets/demo-clock-me.gif)
+#### ![image](https://user-images.githubusercontent.com/104436879/190149329-9019f46d-982f-40d4-8dc1-4cf6627bdb81.png)
 
 ## SCREENSHOTS
 
 ## Sign Up
 
-#### ![image](./src/assets/login.png)
+#### ![image](https://user-images.githubusercontent.com/104436879/190148891-fa0b8d24-d919-4d89-9f3c-5ceba4fe4744.png)
 
 ### Login
 
-#### ![image](./src/assets/login.png)
+#### ![image](https://user-images.githubusercontent.com/104436879/190148598-26271340-67dd-4210-a187-5a742d791282.png)
 
 ### Books Panel
 
-#### ![image](./src/assets/dashboard.png)
+#### ![image](https://user-images.githubusercontent.com/104436879/190149098-d8316c86-187d-4aba-b889-6a5cdf3a5e26.png)
 
 
 ## Table of content
@@ -74,9 +74,7 @@ languages used are:
 
 ### description
 
-This web application helps to solve the problem of tracing employees working time. This can be very essential espesialy jobs that pays thier employees on hourly basis.
-the application is also beneficial to a any company since it enables them track thier working times of thier employees and know how to optimize make thiem efficient.
-the application solve this such as recoding each day's clock-in and clock-out timestamp and record it in the database as string array. the application then uses the timestamps to calculate how many hours the employee has been working and compute the employees salary.
+The knls-book-review application made with React(JavaScript) and Ruby , is used to view a select list of books and their reviews. The user is also able to write a review and delete it at will.
 
 ---
 
