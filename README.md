@@ -1,8 +1,8 @@
-# KNLS-BOOK-REVIEW
+# KNLS-Book-Review
 
 ---
 
-### Author : BONFACE MASIRA
+### Author : Bonface Masira
 
 ---
 
@@ -16,7 +16,7 @@ The knls-book-review application made with React(JavaScript) and Ruby. It is use
 
 #### ![image](https://user-images.githubusercontent.com/104436879/190149329-9019f46d-982f-40d4-8dc1-4cf6627bdb81.png)
 
-## SCREENSHOTS
+## Screenshots
 
 ## Sign Up
 
@@ -45,7 +45,7 @@ The knls-book-review application made with React(JavaScript) and Ruby. It is use
 
 ## Technologies
 
-languages used are:
+Languages used are:
 
 - Front-end
 
@@ -72,13 +72,13 @@ languages used are:
 
 ---
 
-### description
+### Description
 
 The knls-book-review application made with React(JavaScript) and Ruby , is used to view a select list of books and their reviews. The user is also able to write a review and delete it at will.
 
 ---
 
-### challenges
+### Challenges
 
 - Manipulating timestamps.
 - Implementing theme change using sass.
@@ -101,7 +101,7 @@ The knls-book-review application made with React(JavaScript) and Ruby , is used 
 
 ---
 
-### setup
+### Setup
 
 #### Back end
 
@@ -156,12 +156,10 @@ run front end
 - run the following live link in your browser
   `https://knls-books-review.netlify.app/` [knls-books-review](https://knls-books-review.netlify.app/)
 
-#### login Auths..
+#### Login Auths..
 
-- user:
-
-username: Jon
-password: 12345
+username: 'Jon' 
+password: '12345'
 
 ## How to use the project
 
